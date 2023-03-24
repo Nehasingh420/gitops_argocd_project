@@ -4,7 +4,7 @@ pipeline{
 
         environment{
 
-        DOCKERHUB_USERNAME = "anshuman123abc"
+        DOCKERHUB_USERNAME = "neha88"
         APP_NAME = "gitops-argocd"
         IMAGE_TAG = "${BUILD_NUMBER}"
         IMAGE_NAME = "${DOCKERHUB_USERNAME}" + "/" + "${APP_NAME}"
