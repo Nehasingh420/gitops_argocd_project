@@ -33,7 +33,7 @@ pipeline{
                 script{
 
                     git credentialsId: "github",
-                    url: 'https://github.com/anshumanhota1/gitops_argocd_project.git',
+                    url: 'https://github.com/Nehasingh420/gitops_argocd_project.git',
                     branch: 'main'
                 }
             }
